@@ -1,0 +1,129 @@
+#mainNav {
+    background-color: #FEC606;
+}
+
+#title {
+    padding-left: 25px;
+    color: #191919;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+
+}
+
+#logo1 {
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.navbar-right {
+    padding-right: 100px;
+    padding-bottom: 5px;
+}
+
+#a {
+    color: black;
+    padding-right: 50px;
+    font-weight: 500;
+}
+
+#a:hover {
+    color: white;
+}
+
+#con1 {
+    background: #efefef;
+    padding-top: 65px;
+
+}
+
+div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#profile {
+    width: inherit;
+    height: inherit;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+h3 span,
+h2 span {
+    color: #FEC606;
+}
+
+#social-m {
+    padding: 25px;
+}
+
+div img {
+    padding-right: 10px;
+}
+
+#con2 {
+    padding-top: 40px;
+}
+
+#ml,#iot {
+    padding-left: 15px;
+    border-left: 5px;
+    border-left-color: #FEC606;
+}
+
+body {
+    position: relative;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+/* Mobile first - up to 768px wide */
+
+    #desktop-info-a,
+    #desktop-info-b {
+        display: none;
+    }
+    #mobile-info {
+        display: block;    
+    }
+
+/* Tablet targetted size */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    #desktop-info-a,
+    #desktop-info-b {
+        display: block;
+    }
+    #mobile-info {
+    display: none;
+        }
+}
+
+/* Desktop size */
+
+@media screen and (min-width:1025px) {
+    #desktop-info-a,
+    #desktop-info-b {
+        display: block;
+    }
+    #mobile-info {
+    display: none;
+    }
+}
+
